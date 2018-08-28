@@ -1,0 +1,8 @@
+#recipe Blog
+
+// Customize your settings and add new ones here
+Settings[Keys.Host] = "instilledbee.net";
+Settings[BlogKeys.Title] = "The Ultimate Nerd";
+Settings[BlogKeys.Description] = "InstilledBee's Programming Archive";
+
+// Add any pipeline customizations here
