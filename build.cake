@@ -116,7 +116,7 @@ Task("Preview")
     });
 
 Task("Deploy")
-    //.IsDependentOn("Build")
+    .IsDependentOn("Build")
     .WithCriteria(DirectoryExists("output"))
     .Does(() => 
     {
