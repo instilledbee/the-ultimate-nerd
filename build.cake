@@ -111,7 +111,8 @@ Task("Preview")
         Wyam(new WyamSettings
         {
             Preview = true,
-            Watch = true
+            Watch = true,
+            PreviewVirtualDirectory = "/blog"
         });        
     });
 

@@ -3,10 +3,13 @@
 // Customize your settings and add new ones here
 Settings[Keys.Host] = "instilledbee.net";
 Settings[Keys.LinkRoot] = "/blog";
-Settings[Keys.LinkHideExtensions] = "false";
+Settings[Keys.LinkHideExtensions] = "true";
 Settings[Keys.LinksUseHttps] = true;
+
 Settings[BlogKeys.Title] = "The Ultimate Nerd";
 Settings[BlogKeys.Description] = "The Ultimate Nerd";
 Settings[BlogKeys.Intro] = "InstilledBee's Programming Archive";
+Settings[BlogKeys.CaseInsensitiveTags] = true;
+Settings[BlogKeys.IndexFullPosts] = false;
 
 // Add any pipeline customizations here
