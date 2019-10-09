@@ -11,5 +11,6 @@ Settings[BlogKeys.Description] = "The Ultimate Nerd";
 Settings[BlogKeys.Intro] = "InstilledBee's Programming Archive";
 Settings[BlogKeys.CaseInsensitiveTags] = true;
 Settings[BlogKeys.IndexFullPosts] = false;
+Settings[BlogKeys.IgnoreFolders] = "drafts";
 
 // Add any pipeline customizations here
