@@ -1,0 +1,14 @@
+
+# Customize your settings and add new ones here
+Host: "instilledbee.net"
+# comment this line when previewing locally
+#LinkRoot: "/blog"
+LinkHideExtensions: "true"
+LinksUseHttps: true
+
+SiteTitle: "The Ultimate Nerd"
+SiteDescription: "InstilledBee's Programming Archive"
+CaseInsensitiveTags: true
+IndexFullPosts: false
+
+CleanOutputPath: true

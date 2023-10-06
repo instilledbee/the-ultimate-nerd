@@ -1,5 +1,6 @@
+/bin
+/cache
+/obj
 /output
-/config.wyam.dll
-/config.wyam.hash
-/config.wyam.packages.xml
 /tools
+/temp

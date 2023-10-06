@@ -1,4 +1,4 @@
-Title: Quick Tip When Working With C# Streams
+Title: Quick Tip When Copying Data Between C# Streams
 Published: 9/28/2019
 Tags: [.NET, C#]
 ---
