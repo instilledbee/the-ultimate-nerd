@@ -29,6 +29,6 @@ jobs:
           server: ${{ secrets.FTP_HOST }}
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASSWORD }}
-          method: sftp
+          method: ftp
           local_dir: /output
           remote_dir: ${{ secrets.FTP_PATH }}
