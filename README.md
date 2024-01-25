@@ -1,26 +1,13 @@
+![Deployment](https://github.com/instilledbee/the-ultimate-nerd/actions/workflows/deploy.yml/badge.svg)
+
 # the-ultimate-nerd
-My personal programming blog. Powered by [Wyam](https://github.com/Wyamio/Wyam/) See it live [here](https://instilledbee.net/blog).
+My personal programming blog. Powered by [Statiq](https://statiq.dev) See it live [here](https://instilledbee.net/blog).
 
 Building
 --------
 TODO: Create a detailed blog post for this
 
-* Download [Wyam](https://wyam.io)
-* Run `build.ps1` to install Cake dependencies
-* Use `build.cake` to Build, Preview, or Deploy
-
-Cake script parameters
----------------------
-* `target` - the command to run:
-  * "Build" - runs **Wyam** to transform the files in the `input` directory to assets in the `output` directory. The default command if not specified.
-  * "Preview" - runs **Wyam** to perform a **Build** and then spins up a local server to preview the `output`. By default, the preview runs on `http://localhost:5080/blog`
-  * "Deploy" - runs **Wyam** to perform a **Build** and then uploads to an FTP server (see below)
-
-* `username` - the FTP username to log in as when running **Deploy**
-* `password` - the FTP password to use when running **Deploy**
-* `path` - the absolute path on the server to begin uploading from. The directory structure of the `output` folder will be copied relative to the specified path.
-* `only_posts` - (optional) if specified, only pages (`*.html`) files are uploaded via FTP. Default behavior is the script will upload everything in the `output` folder.
-
-Examples:
-* `.\build.ps1 --target="Build"`
-* `.\build.ps1 --target="Deploy" --username="ftpUsername" --password="soSecure123" --path="ftp://awesome.blog/pls_upload_here --only_posts`
+* Clone this repository, ensuring submodules are included
+* Run `dotnet run` to restore the latest Statiq Nuget package and generate the output files
+* Run `dotnet run preview --virtual-dir blog` to preview the files at `http://localhost:5080/blog`
+  * For more details, see instructions in [Statiq Preview Server](https://www.statiq.dev/guide/running/preview-server)
