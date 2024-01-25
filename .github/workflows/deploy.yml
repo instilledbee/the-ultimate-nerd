@@ -1,3 +1,5 @@
+name: Live Deploy
+
 on:
   workflow_dispatch:
   push:
