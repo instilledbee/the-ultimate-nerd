@@ -1,7 +1,9 @@
 ![Deployment](https://github.com/instilledbee/the-ultimate-nerd/actions/workflows/deploy.yml/badge.svg)
 
 # the-ultimate-nerd
-My personal programming blog. Powered by [Statiq](https://statiq.dev) See it live [here](https://instilledbee.net/blog).
+My personal programming blog. Powered by [Statiq](https://statiq.dev).
+
+See it live [here](https://instilledbee.net/blog).
 
 Building
 --------

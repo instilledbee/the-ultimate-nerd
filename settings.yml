@@ -12,3 +12,8 @@ CaseInsensitiveTags: true
 IndexFullPosts: false
 
 CleanOutputPath: true
+
+CommentEngine: "giscus"
+GiscusRepoName: "instilledbee/the-ultimate-nerd"
+GiscusRepoId: "MDEwOlJlcG9zaXRvcnkxNDY0NjUyNDU="
+GiscusCategoryId: "DIC_kwDOCLrh3c4CnbNU"
