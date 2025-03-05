@@ -1,5 +1,5 @@
 Title: Working around ASP.NET MVC's Bundler ignoring file orders
-Published: 25/01/2024
+Published: 1/25/2024
 Tags: [.NET, C#, ASP.NET MVC]
 ---
 
