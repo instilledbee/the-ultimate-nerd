@@ -29,4 +29,4 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           method: ftp
           local-dir: ./output/
-          remote-dir: ${{ secrets.FTP_PATH }}
+          server-dir: ${{ secrets.FTP_PATH }}
