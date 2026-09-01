@@ -28,5 +28,5 @@ jobs:
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASSWORD }}
           method: ftp
-          local-dir: ./output
+          local-dir: ./output/
           remote-dir: ${{ secrets.FTP_PATH }}
