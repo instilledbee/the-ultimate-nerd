@@ -1,5 +1,5 @@
 Title: Exporting and Importing SQL Server Data-Tier Application That Has Errors
-Published: 9/2/2026
+Published: 9/1/2026
 Tags: [SQL Server]
 Image: posts/postimg/export-and-import-bacpac-with-errors.jpg
 ---
