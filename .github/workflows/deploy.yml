@@ -16,7 +16,7 @@ jobs:
         with:
           dotnet-version: 10.x
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           submodules: recursive
       - name: Run Statiq
@@ -28,5 +28,5 @@ jobs:
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASSWORD }}
           method: ftp
-          local_dir: ./output
-          remote_dir: ${{ secrets.FTP_PATH }}
+          local-dir: ./output
+          remote-dir: ${{ secrets.FTP_PATH }}
